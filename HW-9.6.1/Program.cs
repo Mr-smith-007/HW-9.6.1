@@ -11,28 +11,14 @@ namespace HW_9._6._1
 
         public static void Main(string[] args)
         {
-            //Exception[] exceptions = new Exception[5];
-            //exceptions[0] = new MyException("Некорректный возраст");
-            //exceptions[1] = new DivideByZeroException("Деление на нуль");
-            //exceptions[2] = new IndexOutOfRangeException("Индекс вне заданных пределов");
-            //exceptions[3] = new ArgumentOutOfRangeException("Аргумент вне заданных пределов");
-            //exceptions[4] = new ArgumentNullException("Невозможно занчение null");
+            //Начало задания 1
 
-            //for (int i = 0; i < exceptions.Length; i++)
-            //{
-            //    try
-            //    {
-            //        throw exceptions[i];
-            //    }
-            //    catch (Exception e)
-            //    {
-            //        Console.WriteLine(e.ToString());
-            //    }
+            Task1.TaskExceptions();
+            Console.WriteLine();
 
-            //}
+            //Конец задания 1
 
-            
-
+            //Начало задания 2
 
             SortType sortLnames = new SortType();
             sortLnames.SortEvent += ShowList.Show;
@@ -49,9 +35,11 @@ namespace HW_9._6._1
                 Console.WriteLine(ex.ToString());
             }
 
+            //Конец задания 2
+
 
         }
-        
+
     }
 }
 
