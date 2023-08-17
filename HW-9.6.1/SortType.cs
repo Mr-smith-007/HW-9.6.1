@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW_9._6._1
 {
-    class SortLNames
+    class SortType
     {
         public delegate void SortDelegate(int x);
         public event SortDelegate? SortEvent;
