@@ -21,7 +21,7 @@ namespace HW_9._6._1
             Sort(sort);
         }
 
-        protected virtual void Sort (int sort)
+        protected virtual void Sort(int sort)
         {
             SortEvent?.Invoke(sort);
         }
