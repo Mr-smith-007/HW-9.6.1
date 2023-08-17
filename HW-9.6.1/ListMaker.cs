@@ -19,6 +19,7 @@ namespace HW_9._6._1
                     throw new MyException("Введено некорректное значение, фамилия не может быть меньше 3 символов");
 
             }
+            Console.WriteLine();
             return LNames;
         }
     }

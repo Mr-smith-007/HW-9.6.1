@@ -31,11 +31,7 @@ namespace HW_9._6._1
                         break;
                     }
             }
-            Console.WriteLine();
-            foreach (string lname in LNames)
-            {
-                Console.WriteLine(lname);
-            }
+
         }
     }
 }
